@@ -1,0 +1,29 @@
+name: Segnala un documento o un errore
+description: Proponi un documento mancante o segnala un errore in una scheda / Suggest a missing document or report an error
+title: "[Segnalazione] "
+labels: [segnalazione]
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Tipo di segnalazione / Report type
+      options:
+        - Documento mancante / Missing document
+        - Errore in una scheda / Error in a record
+        - Link non funzionante / Broken link
+        - Richiesta di rimozione / Takedown request
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Link alla fonte ufficiale o alla scheda / Official source or record URL
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Dettagli / Details
+      description: Titolo, paese, data, cosa va corretto… / Title, country, date, what should be fixed…
+    validations:
+      required: true

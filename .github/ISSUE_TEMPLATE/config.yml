@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Vulnerabilità di sicurezza / Security vulnerability
+    url: https://www.cybersecuritydatabase.org/it/contacts/
+    about: Non aprire una issue pubblica, scrivi a support@cybersecuritydatabase.org / Do not open a public issue, email support@cybersecuritydatabase.org
